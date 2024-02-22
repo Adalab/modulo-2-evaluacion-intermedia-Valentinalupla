@@ -1,0 +1,30 @@
+* { margin: 0;
+    padding: 5px 5px;
+    box-sizing: border-box;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    gap: 10px;
+    
+}
+.button {
+width: 70px;
+padding: 5px;
+border-radius: 5px;
+background-color: darkcyan;
+color: white;
+border: none;
+}
+.p, .p2 {
+border: 2px solid grey;
+}
